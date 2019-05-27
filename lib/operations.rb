@@ -1,4 +1,5 @@
-def unsafe?(speed)
+def Operations
+  def unsafe?(speed)
   return speed
 end
 
