@@ -1,8 +1,13 @@
-def Operations
-  def unsafe?(speed)
-    return speed
+def unsafe?(speed)
+  if speed > 60 || speed < 40
+    return true
+  else
+    return false
   end
-  def not_safe?(speed)
-    return speed
-  end
+end
+
+
+
+def not_safe?(speed)
+  if speed > 60 || speed < 40 ? false : true
 end
