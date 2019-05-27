@@ -1,5 +1,5 @@
-require_relative '../lib/operations.rb'
-require_relative 'spec_helper'
+#require_relative '../lib/operations.rb'
+#require_relative 'spec_helper'
 
 
 describe "Operations" do
